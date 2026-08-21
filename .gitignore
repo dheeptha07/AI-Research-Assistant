@@ -1,4 +1,22 @@
-venv/
+# Virtual environment
+.venv/
+
+# Environment variables
 .env
+
+# Python cache
 __pycache__/
+*.pyc
+
+# Generated vector database
 vectorstore/
+
+# Uploaded / temporary PDFs
+uploaded_paper.pdf
+data/*.pdf
+
+# VS Code
+.vscode/
+
+# Local backup files
+old_versions/
