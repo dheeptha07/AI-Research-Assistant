@@ -15,6 +15,11 @@ Built using Retrieval-Augmented Generation (RAG), semantic embeddings, FAISS vec
 - **Document Information:** View the uploaded filename, page count, and number of text chunks.
 - **Context-Grounded Responses:** Instruct the language model to avoid inventing information absent from the retrieved context.
 - **Session Controls:** Clear the conversation or active document.
+## 📸 Application Screenshot
+
+![AI Research Assistant answering a question about a research paper](screenshots/screenshot.png)
+
+The application retrieves relevant passages from uploaded research papers and generates context-grounded answers using RAG.
 
 ## 🛠️ Tech Stack
 
