@@ -1,17 +1,23 @@
-# Virtual environment
+
+# Virtual environments
 .venv/
+venv/
+env/
 
-# Environment variables
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
 
-# Python cache
+# Python cache and compiled files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
 # Generated vector database
 vectorstore/
 
-# Uploaded / temporary PDFs
+# Uploaded and temporary PDFs
 uploaded_paper.pdf
 data/*.pdf
 
@@ -20,3 +26,7 @@ data/*.pdf
 
 # Local backup files
 old_versions/
+
+# Operating system files
+.DS_Store
+Thumbs.db
